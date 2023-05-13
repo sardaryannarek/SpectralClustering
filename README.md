@@ -12,4 +12,5 @@ affinity str, default=’rbf’։ How to construct the affinity matrix.
                              ‘rbf’: construct the affinity matrix using a radial basis function (RBF) kernel.
 
 n_neighbors int, default=10  ։ Number of neighbors to use when constructing the affinity matrix using the nearest neighbors method. Ignored for affinity='rbf'.
+
 assign_labels{‘kmeans’, ‘cluster_qr’}, default=’kmeans’ ։The strategy for assigning labels in the embedding space. 
