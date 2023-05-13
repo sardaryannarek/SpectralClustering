@@ -1,7 +1,8 @@
 # SpectralClustering
 Implementation of SpectralClustering
 
-SpectralClustering(n_cluster, affinity='rbf', n_neighbors=10, gamma=1, assign_labels='kmeans'):
+SpectralClustering(n_cluster, affinity='rbf', n_neighbors=10, gamma=1, assign_labels='kmeans').
+
 n_clusters int  ։  The dimension of the projection subspace.
 
 affinity str, default=’rbf’։ How to construct the affinity matrix.
