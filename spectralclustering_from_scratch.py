@@ -32,7 +32,7 @@ class SpectralClustering:
         l_sym = d_minus_point_five @ l @ d_minus_point_five
 
         eig_vals, eig_vec = eig(l_sym)
-        indexes = np.argsort(eig_vals)[0:self.n_cluster]
+        indexes = np.argsort(eig_vals)[1: self.n_cluster + 1]
         u = eig_vec[:, indexes]
 
         norm = np.sum(u * u, axis=1) ** .5
